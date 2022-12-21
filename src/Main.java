@@ -12,7 +12,7 @@ public class Main {
         } else {
             bonusRubles = replenishmentRmount / 100;
             finalScore = replenishmentAmount + startingScore + bonusRubles;
-            System.out.println("Клиент пополнил счёт на " + replenishmentAmount + " рублей - бонус равен " + bonusRubles + " рублям ,итоговая сумма на счету клиента - " + final_score);
+            System.out.println("Клиент пополнил счёт на " + replenishmentAmount + " рублей - бонус равен " + bonusRubles + " рублям ,итоговая сумма на счету клиента - " + finalScore);
 
         }
 
